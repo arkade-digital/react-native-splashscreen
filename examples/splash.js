@@ -12,7 +12,7 @@ const {
 
 import Swiper from 'react-native-swiper';
 const TimerMixin = require('react-timer-mixin');
-const SplashScreen = require('@remobile/react-native-splashscreen');
+const SplashScreen = require('react-native-splashscreen');
 const Login = require('../login/Login.js');
 const Home = require('../home/index.js');
 
