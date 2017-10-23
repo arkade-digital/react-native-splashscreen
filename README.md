@@ -1,3 +1,7 @@
+This is a fork of [this repo](https://github.com/remobile/react-native-splashscreen). Its purpose is to get the plugin working correctly on android, and also to fix the splash screen so it doesn't look distorted on less common screen sizes.
+
+---
+
 # React Native SplashScreen (remobile)
 A splashscreen for react-native, hide when application loaded
 
@@ -33,7 +37,7 @@ RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
 ```gradle
 ...
 include ':react-native-splashscreen'
-project(':react-native-splashscreen').projectDir = new File(settingsDir, '../node_modules/react-native-splashscreen/android')
+project(':react-native-splashscreen').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-splashscreen/android')
 ```
 
 * In `android/app/build.gradle`
